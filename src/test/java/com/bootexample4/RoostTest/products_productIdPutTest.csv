@@ -1,0 +1,11 @@
+productId,id,name,description,price,statusCode
+1,1001,Apple,Fresh Red Apple,20,200
+2,1002,Banana,Yellow Ripe Banana,15,200
+3,1003,Mango,Sweet Mango,30,200
+4,1004,Orange,Juicy fresh orange,25,200
+5,1005,Pineapple,Sweet Pineapple,40,200
+6,1006,Grapes,Fresh Green Grapes,35,200
+7,1007,Strawberry,Fresh Strawberry,45,200
+8,1008,Blueberry,Fresh Blueberries,50,200
+9,1009,Cherry,Red Cherries,55,200
+10,1010,Peach,Fresh peaches,60,200
