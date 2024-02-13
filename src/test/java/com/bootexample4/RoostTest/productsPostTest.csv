@@ -1,0 +1,11 @@
+id,name,description,price,statusCode
+1,Apple,High quality fresh apple,20,200
+2,Banana,Organic ripe banana,15,200
+3,Grapes,Sweet seedless grapes,25,200
+4,Orange,Juicy fresh orange,30,200
+5,Mango,Ripe juicy mango,35,200
+6,Pineapple,Fresh cut pineapple,40,200
+7,Strawberry,Fresh farm strawberry,45,200
+8,Blueberry,Wild fresh blueberries,50,200
+9,Kiwi,Organic ripe kiwi,55,200
+10,Watermelon,Large sweet watermelon,60,200
