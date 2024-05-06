@@ -1,0 +1,20 @@
+productId^|^AdditionalCSVvaluInfo^|^statusCode
+3^|^Product 3 ^|^200
+2^|^Product 2 ^|^200
+22^|^Product 22 ^|^200
+3^|^Product 3 ^|^404
+22^|^Product 22 ^|^404
+23^|^Product 23 ^|^200
+40^|^Product 40 ^|^200
+44^|^Product 44 ^|^200
+46^|^Product 46 ^|^200
+2323^|^Product 2323 ^|^404
+123456^|^Product 123456 ^|^404
+234567^|^Product 234567 ^|^404
+789012^|^Product 789012 ^|^404
+456789^|^Product 456789 ^|^404
+345678^|^Product 345678 ^|^404
+567890^|^Product 567890 ^|^404
+678901^|^Product 678901 ^|^404
+890123^|^Product 890123 ^|^404
+123789^|^Product 123789 ^|^404
