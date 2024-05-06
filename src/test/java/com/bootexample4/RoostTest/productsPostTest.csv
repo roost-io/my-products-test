@@ -1,0 +1,15 @@
+id^|^name^|^description^|^price^|^AdditionalCSVvaluInfo^|^statusCode
+1^|^John Doe^|^A great product^|^29.99^|^name: John Doe, description: A great product, price: 29.99^|^200
+2^|^Jane Smith^|^An amazing item^|^49.99^|^name: Jane Smith, description: An amazing item, price: 49.99^|^200
+3^|^Jim Brown^|^An excellent choice^|^99.99^|^name: Jim Brown, description: An excellent choice, price: 99.99^|^200
+4^|^Jill Johnson^|^A popular pick^|^19.99^|^name: Jill Johnson, description: A popular pick, price: 19.99^|^200
+5^|^Jack Williams^|^Highly recommended^|^39.99^|^name: Jack Williams, description: Highly recommended, price: 39.99^|^200
+6^|^Jessica Jones^|^A fantastic find^|^59.99^|^name: Jessica Jones, description: A fantastic find, price: 59.99^|^200
+7^|^James Davis^|^Top selling item^|^79.99^|^name: James Davis, description: Top selling item, price: 79.99^|^200
+8^|^Jennifer Wilson^|^Customers love this^|^89.99^|^name: Jennifer Wilson, description: Customers love this, price: 89.99^|^200
+9^|^Joseph Anderson^|^The best in the market^|^69.99^|^name: Joseph Anderson, description: The best in the market, price: 69.99^|^200
+10^|^Julia Thomas^|^Excellent quality^|^109.99^|^name: Julia Thomas, description: Excellent quality, price: 109.99^|^200
+11^|^apple#^|^An amazing item^|^49.99^|^name: apple#, description: An amazing item, price: 49.99^|^200
+12^|^NULL^|^An amazing item^|^49.99^|^name: NULL, description: An amazing item, price: 49.99^|^405
+13^|^Jim Brown^|^An excellent choice^|^99.99^|^name: Jim Brown, description: An excellent choice, price: 99.99^|^200
+14^|^Jane Smith^|^An amazing item^|^49.99^|^name: Jane Smith, description: An amazing item, price: 49.99^|^200

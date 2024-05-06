@@ -1,0 +1,11 @@
+productId^|^AdditionalCSVvaluInfo^|^statusCode
+1^|^{"someProductId": {"value": "1"}}^|^200
+2^|^{"someProductId": {"value": "2"}}^|^404
+3^|^{"someProductId": {"value": "3"}}^|^404
+4^|^{"someProductId": {"value": "4"}}^|^200
+4433221100^|^{"someProductId": {"value": "4433221100"}}^|^404
+5566778899^|^{"someProductId": {"value": "5566778899"}}^|^404
+1122334455^|^{"someProductId": {"value": "1122334455"}}^|^404
+1234567890^|^{"someProductId": {"value": "1234567890"}}^|^404
+1029384756^|^{"someProductId": {"value": "1029384756"}}^|^404
+987654321^|^{"someProductId": {"value": "987654321"}}^|^404
