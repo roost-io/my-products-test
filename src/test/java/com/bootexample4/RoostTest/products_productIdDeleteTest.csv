@@ -1,0 +1,11 @@
+productId^|^AdditionalCSVvaluInfo^|^statusCode
+1^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+2^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+3^|^{'someProductId': {'value': '4'}}^|^{'404': {'statusCode_description': 'Not Found'}}
+4^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+5^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+6^|^{'someProductId': {'value': '4'}}^|^{'404': {'statusCode_description': 'Not Found'}}
+7^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+8^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}
+9^|^{'someProductId': {'value': '4'}}^|^{'404': {'statusCode_description': 'Not Found'}}
+10^|^{'someProductId': {'value': '4'}}^|^{'200': {'statusCode_description': 'Product deleted'}}

@@ -1,0 +1,11 @@
+productId^|^AdditionalCSVvaluInfo^|^id^|^name^|^description^|^price^|^statusCode
+1^|^Info1^|^10^|^Apple^|^High quality apple^|^20^|^200
+2^|^Info2^|^20^|^Banana^|^Fresh yellow banana^|^30^|^200
+3^|^Info3^|^30^|^Grape^|^Sweet green grape^|^15^|^200
+4^|^Info4^|^40^|^Watermelon^|^Big round watermelon^|^50^|^404
+5^|^Info5^|^50^|^Cherry^|^Small red cherry^|^35^|^200
+6^|^Info6^|^60^|^Blueberry^|^Fresh blueberry^|^40^|^200
+7^|^Info7^|^70^|^Mango^|^Delicious mango^|^45^|^404
+8^|^Info8^|^80^|^Pineapple^|^Tropical fruit^|^55^|^200
+9^|^Info9^|^90^|^Lime^|^Sour green lime^|^25^|^200
+10^|^Info10^|^100^|^Strawberry^|^Sweet red strawberry^|^30^|^404
