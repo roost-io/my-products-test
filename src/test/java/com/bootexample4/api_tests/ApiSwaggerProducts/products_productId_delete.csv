@@ -1,0 +1,3 @@
+validProductId,invalidProductId,missingProductId
+"100","notAnInt",""
+"200","""",""
