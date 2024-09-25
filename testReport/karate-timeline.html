@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_get[1:19]","start":1727252714015,"end":1727252714024,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_get[1:19] 08:25:14.015-08:25:14.024 Verify successful retrieval of all products","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.1:46]","start":1727252712188,"end":1727252712668,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.1:46] 08:25:12.188-08:25:12.668 Test adding a new product","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.2:46]","start":1727252712690,"end":1727252712697,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.2:46] 08:25:12.690-08:25:12.697 Test adding a new product","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.3:46]","start":1727252712712,"end":1727252712719,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_post[1.3:46] 08:25:12.712-08:25:12.719 Test adding a new product","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.1:25]","start":1727252714160,"end":1727252714171,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.1:25] 08:25:14.160-08:25:14.171 Delete a product with valid product ID","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.2:25]","start":1727252714179,"end":1727252714185,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.2:25] 08:25:14.179-08:25:14.185 Delete a product with valid product ID","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.3:25]","start":1727252714192,"end":1727252714206,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[1.3:25] 08:25:14.192-08:25:14.206 Delete a product with valid product ID","className":"failed"},{"id":8,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.1:35]","start":1727252714215,"end":1727252714221,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.1:35] 08:25:14.215-08:25:14.221 Delete a product with non-existing product ID","className":"failed"},{"id":9,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.2:36]","start":1727252714229,"end":1727252714234,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.2:36] 08:25:14.229-08:25:14.234 Delete a product with non-existing product ID","className":"failed"},{"id":10,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.3:37]","start":1727252714242,"end":1727252714247,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_delete[2.3:37] 08:25:14.242-08:25:14.247 Delete a product with non-existing product ID","className":"failed"},{"id":11,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_get[1.1:26]","start":1727252714643,"end":1727252714645,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_get[1.1:26] 08:25:14.643-08:25:14.645 Validate GET \/products\/{productId} endpoint","className":"failed"},{"id":12,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_get[1.2:27]","start":1727252714650,"end":1727252714651,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_get[1.2:27] 08:25:14.650-08:25:14.651 Validate GET \/products\/{productId} endpoint","className":"failed"},{"id":13,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_put[1.1:29]","start":1727252714771,"end":1727252714773,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_put[1.1:29] 08:25:14.771-08:25:14.773 Test Update Product API with valid inputs","className":"failed"},{"id":14,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_put[2:31]","start":1727252714779,"end":1727252714780,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/ApiSwaggerProducts\/products_productId_put[2:31] 08:25:14.779-08:25:14.780 Test Update Product API with non-existent product","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
