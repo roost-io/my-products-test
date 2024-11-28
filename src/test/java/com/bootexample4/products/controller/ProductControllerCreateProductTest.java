@@ -87,6 +87,7 @@ Each scenario focuses on a specific aspect of the method's behavior while stayin
 // ********RoostGPT********
 
 package com.bootexample4.products.controller;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 import org.junit.jupiter.api.BeforeEach;
@@ -106,59 +107,69 @@ import org.springframework.web.bind.annotation.*;
 
 @ExtendWith(MockitoExtension.class)
 class ProductControllerCreateProductTest {
-    @Mock
-    private ProductRepository productRepository;
-    @InjectMocks
-    private ProductController productController;
-    private Product testProduct;
-    @BeforeEach
-    void setUp() {
-        testProduct = new Product();
-    }
-    @Test
+
+	@Mock
+	private ProductRepository productRepository;
+
+	@InjectMocks
+	private ProductController productController;
+
+	private Product testProduct;
+
+	@BeforeEach
+	void setUp() {
+		testProduct = new Product();
+	}
+
+	@Test
     @Tag("valid")
     public void testCreateProductWithValidData() {
         when(productRepository.save(any(Product.class))).thenReturn(testProduct);
-        
+
         Product result = productController.createProduct(testProduct);
-        
+
         assertNotNull(result);
         verify(productRepository, times(1)).save(testProduct);
     }
-    @Test
-    @Tag("invalid")
-    public void testCreateProductWithNullInput() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            productController.createProduct(null);
-        });
-    }
-    @Test
+
+	@Test
+	@Tag("invalid")
+	public void testCreateProductWithNullInput() {
+		assertThrows(IllegalArgumentException.class, () -> {
+			productController.createProduct(null);
+		});
+	}
+
+	@Test
     @Tag("integration")
     public void testCreateProductWhenRepositoryFails() {
         when(productRepository.save(any(Product.class))).thenThrow(new RuntimeException("Database error"));
-        
+
         assertThrows(RuntimeException.class, () -> {
             productController.createProduct(testProduct);
         });
     }
-    @Test
-    @Tag("boundary")
-    public void testCreateProductWithEmptyFields() {
-        Product emptyProduct = new Product();
-        when(productRepository.save(any(Product.class))).thenReturn(emptyProduct);
-        
-        Product result = productController.createProduct(emptyProduct);
-        
-        assertNotNull(result);
-        verify(productRepository, times(1)).save(emptyProduct);
-    }
-    @Test
+
+	@Test
+	@Tag("boundary")
+	public void testCreateProductWithEmptyFields() {
+		Product emptyProduct = new Product();
+		when(productRepository.save(any(Product.class))).thenReturn(emptyProduct);
+
+		Product result = productController.createProduct(emptyProduct);
+
+		assertNotNull(result);
+		verify(productRepository, times(1)).save(emptyProduct);
+	}
+
+	@Test
     @Tag("integration")
     public void testCreateDuplicateProduct() {
         when(productRepository.save(any(Product.class))).thenThrow(new RuntimeException("Duplicate entry"));
-        
+
         assertThrows(RuntimeException.class, () -> {
             productController.createProduct(testProduct);
         });
     }
+
 }
