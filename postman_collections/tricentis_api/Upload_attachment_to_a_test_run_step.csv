@@ -1,0 +1,9 @@
+test-run-key,step-number,project-key,fileName,mimeType,size,statusCode,scenario
+"TR-12345",1,"PRJ-7890","file1.json","application/json",500,200,"Success"
+"TR-12346",2,"PRJ-7891","file2.xml","application/xml",600,400,"Invalid parameters"
+"TR-12347",3,"PRJ-7892","file3.txt","text/plain",700,401,"Unauthorized"
+"TR-12348",4,"PRJ-7893","file4.csv","text/csv",800,404,"Not Found"
+"TR-12349",5,"PRJ-7894","file5.pdf","application/pdf",900,200,"Success"
+"TR-12350",6,"PRJ-7895","file6.docx","application/vnd.openxmlformats-officedocument.wordprocessingml.document",1000,400,"Invalid parameters"
+"TR-12351",7,"PRJ-7896","file7.xlsx","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",1100,401,"Unauthorized"
+"TR-12352",8,"PRJ-7897","file8.pptx","application/vnd.openxmlformats-officedocument.presentationml.presentation",1200,404,"Not Found"

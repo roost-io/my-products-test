@@ -1,0 +1,5 @@
+jiraFields,ttmFields,limit,nextPageToken,project-key,statusCode,scenario
+"summary, description, status, priority, labels","precondition, steps",1,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","TE",200,"Successfully retrieved test cases information."
+"summary, description, status, priority, labels","precondition, steps",1,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","TE",400,"Invalid parameters."
+"summary, description, status, priority, labels","precondition, steps",1,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","TE",401,"Unauthorized."
+"summary, description, status, priority, labels","precondition, steps",1,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","TE",404,"Not Found."

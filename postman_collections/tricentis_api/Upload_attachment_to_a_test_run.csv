@@ -1,0 +1,5 @@
+test-run-key,project-key,fileName,mimeType,size,statusCode,scenario
+"TR1234","PK5678","file1.json","application/json",1024,200,"Success"
+"TR2345","PK6789","file2.xml","application/xml",2048,400,"Invalid parameters"
+"TR3456","PK7890","file3.txt","text/plain",4096,401,"Unauthorized"
+"TR4567","PK8901","file4.csv","text/csv",8192,404,"Not Found"

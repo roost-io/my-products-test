@@ -1,0 +1,5 @@
+offset,limit,project-key,cycles,versions,keys,expand,testCasesKeys,statusCode,scenario
+0,2,"DE-TR-1","CycleName","1.0.0","1ab17b92-fcc3-4993-b86a-72612adcf663","https://api.ttm4j.tricentis.com/","DE-1",200,"Successful responses: OK"
+10,5,"DE-TR-2","CycleName2","2.0.0","2ab17b92-fcc3-4993-b86a-72612adcf663","https://api.ttm4j.tricentis.com/","DE-2",400,"Invalid parameters"
+15,7,"DE-TR-3","CycleName3","3.0.0","3ab17b92-fcc3-4993-b86a-72612adcf663","https://api.ttm4j.tricentis.com/","DE-3",401,"Unauthorized"
+20,10,"DE-TR-4","CycleName4","4.0.0","4ab17b92-fcc3-4993-b86a-72612adcf663","https://api.ttm4j.tricentis.com/","DE-4",404,"Not Found"

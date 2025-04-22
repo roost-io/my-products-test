@@ -1,0 +1,5 @@
+project-key,summary,description,issueType,1.summary,1.description,1.issueType,statusCode,scenario
+API-1,Create two folders,This API is used to create two folders,Task,Create Folder,This task is to create a folder,Sub-task,200,Success
+API-2,Create two folders,This API is used to create two folders,Task,Create Folder inside parent folder,This task is to create a folder inside parent folder,Sub-task,200,Success
+API-3,Invalid API,This API is invalid,Bug,Invalid API,This is an invalid API,Sub-task,401,Unauthorized.
+API-4,Invalid API,This API is invalid,Bug,Invalid API,This is an invalid API,Sub-task,401,Unauthorized.
