@@ -1,0 +1,6 @@
+project-key,name,parentId,statusCode,scenario
+TE,"Folder 1",",200,"Successfully created folder(s)."
+TE,"Folder inside another folder",",200,"Successfully created folder(s)."
+"RandomString1","InvalidName1","InvalidParentId1",400,"Invalid parameters."
+"RandomString2","InvalidName2","InvalidParentId2",401,"Unauthorized."
+"RandomString3","InvalidName3","InvalidParentId3",404,"Not Found."

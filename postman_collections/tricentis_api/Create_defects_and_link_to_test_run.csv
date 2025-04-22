@@ -1,0 +1,6 @@
+stepIndex,test-run-key,project-key,summary,description,issueType,1.summary,1.description,1.issueType,statusCode,scenario
+1,"TR-001","PK-001","Test Run 1","This is a test run for API 1","Bug","Issue 1","Issue found in API 1","Bug",200,"Success"
+2,"TR-002","PK-002","Test Run 2","This is a test run for API 2","Bug","Issue 2","Issue found in API 2","Bug",200,"Success"
+3,"TR-003","PK-003","Test Run 3","This is a test run for API 3","Bug","Issue 3","Issue found in API 3","Bug",401,"Unauthorized"
+4,"TR-004","PK-004","Test Run 4","This is a test run for API 4","Bug","Issue 4","Issue found in API 4","Bug",401,"Unauthorized"
+5,"TR-005","PK-005","Test Run 5","This is a test run for API 5","Bug","Issue 5","Issue found in API 5","Bug",200,"Success"

@@ -1,0 +1,5 @@
+project-key,name,assignee,plannedStartDate,plannedEndDate,fields,version,1.name,1.assignee,1.plannedStartDate,1.plannedEndDate,1.fields,1.version,statusCode,scenario
+"proj-123"^|"My Cycle"^|"John Doe"^|"2025-04-21T16:46:48.495199Z"^|"2025-04-22T16:46:48.4951989Z"^|"{}"^|"1.0.0"^|"Folder"^|"Jane Doe"^|"2025-04-21T16:46:48.495199Z"^|"2025-04-22T16:46:48.4951989Z"^|"{}"^|"UNVERSIONED"^|200^|"Successful responses: OK"
+"proj-456"^|"My Second Cycle"^|"Invalid User"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|"Folder inside parent folder"^|"Invalid User"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|400^|"Invalid parameters"
+"proj-789"^|"My Third Cycle"^|"Unauthorized User"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|"Invalid Folder"^|"Unauthorized User"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|401^|"Unauthorized"
+"proj-000"^|"Not Found"^|"Not Found"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|"Not Found"^|"Not Found"^|"Invalid Date"^|"Invalid Date"^|"Invalid Fields"^|"Invalid Version"^|404^|"Not Found"

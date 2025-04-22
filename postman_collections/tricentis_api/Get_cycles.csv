@@ -1,0 +1,11 @@
+name,version,assignee,offset,limit,project-key,statusCode,scenario
+"My Cycle","1.0.0","John Doe",0,10,"PROJ-001",200,"Successful responses: OK"
+"My Second Cycle","UNVERSIONED","Jane Doe",10,20,"PROJ-002",400,"Invalid parameters"
+"My Third Cycle","UNVERSIONED","Robert Smith",20,30,"PROJ-003",401,"Unauthorized"
+"Random Cycle","2.0.0","Emily Johnson",30,40,"PROJ-004",404,"Not Found"
+"Another Cycle","3.0.0","Michael Brown",40,50,"PROJ-005",200,"Successful responses: OK"
+"Test Cycle","4.0.0","Sarah Davis",50,60,"PROJ-006",400,"Invalid parameters"
+"Demo Cycle","5.0.0","James Miller",60,70,"PROJ-007",401,"Unauthorized"
+"Sample Cycle","6.0.0","Jennifer Wilson",70,80,"PROJ-008",404,"Not Found"
+"Trial Cycle","7.0.0","William Moore",80,90,"PROJ-009",200,"Successful responses: OK"
+"Mock Cycle","8.0.0","Jessica Taylor",90,100,"PROJ-010",400,"Invalid parameters"

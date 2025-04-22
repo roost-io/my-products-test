@@ -1,0 +1,6 @@
+key,project-key,summary,description,issueType,1.summary,1.description,1.issueType,statusCode,scenario
+"API-1","PROJ-1","API summary 1","API description 1","Issue type 1","Summary 1","Description 1","Issue type 1",200,"Success"
+"API-2","PROJ-2","API summary 2","API description 2","Issue type 2","Summary 2","Description 2","Issue type 2",200,"Success"
+"API-3","PROJ-3","API summary 3","API description 3","Issue type 3","Summary 3","Description 3","Issue type 3",401,"Unauthorized."
+"API-4","PROJ-4","API summary 4","API description 4","Issue type 4","Summary 4","Description 4","Issue type 4",401,"Unauthorized."
+"API-5","PROJ-5","API summary 5","API description 5","Issue type 5","Summary 5","Description 5","Issue type 5",200,"Success"
